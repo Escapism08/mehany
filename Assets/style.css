@@ -1,5 +1,5 @@
 .the-home{
-    background-image: url('images/home-page.png'); 
+    background-image: url('images/home-page.jpg'); 
     background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -9,7 +9,7 @@
 }
 
 .the-home2{
-    background-image: url('images/Menu.png'); 
+    background-image: url('images/Menu.jpg'); 
     background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
