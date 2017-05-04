@@ -1,0 +1,128 @@
+.the-home{
+    background-image: url('images/home-page.png'); 
+    background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-width: 338px;
+}
+
+.the-home2{
+    background-image: url('images/Menu.png'); 
+    background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-width: 338px;
+}
+
+.electricity{
+	margin-bottom: -5px;
+}
+
+.row{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.buttons-container{
+	text-align: center;
+	bottom: 6em;
+	position: absolute;
+    	z-index: 2;
+   	width:25em;
+   	margin-left:-180px;
+    	left:50%;
+}
+
+.custom-edits-for-button{
+	border-radius: 16px;
+		padding: 8px 24px;
+
+	background-color: #ffc107;
+	border-color: #ffc107;
+	font-size: 20px;
+
+}
+
+
+.custom-edits-for-button2{
+	border-radius: 16px;
+		padding: 8px 45px;
+	font-size: 20px;
+
+	background-color: #4cb906;
+	border-color: #4cb906;
+
+}
+
+.login-popup{
+	background-color: white;
+	    position: relative;
+    z-index: 10;
+    // margin-top: -104px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 5em;
+    height: 22em;
+    border-radius: 20px;
+}
+
+.login-popup2{
+	background-color: white;
+	    position: relative;
+    z-index: 10;
+    // margin-top: -104px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 3em;
+    height: 33em;
+    border-radius: 20px;
+}
+
+.text-in-popup{
+	color: #4cb906;
+}
+
+.paragraph-under-popup{
+	color: #758692;
+}
+
+.text-in-popup2{
+	color: #0091ea;
+}
+
+.warning{
+	background-color: #ffc107;
+}
+
+.info{
+	background-color: #4cb906;
+}
+
+body > div.login-popup2 > div:nth-child(2) > div:nth-child(2) > div{
+	border-radius: 18px;
+	font-size: 0px;
+	width: 40px;
+}
+
+body > div.login-popup2 > div:nth-child(2) > div.col-xs-4 > div{
+	    width: 44px !important;
+    height: 25px !important;
+
+}
+
+body > div.login-popup2 > div:nth-child(2) > div.col-xs-4 > div > div > label.btn.btn-warning.toggle-on{
+	    font-size: 0px !important;
+
+}
+
+
+body > div.login-popup2 > div:nth-child(2) > div.col-xs-4 > div > div > label.btn.btn-info.active.toggle-off{
+	font-size: 0px !important;
+}
